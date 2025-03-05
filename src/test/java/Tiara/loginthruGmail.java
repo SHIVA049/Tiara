@@ -30,7 +30,8 @@ public class loginthruGmail extends BaseTest {
 		String childwind=it.next();
 		driver.switchTo().window(childwind);
 		driver.manage().window().maximize();
-		sgnInPg.EnterEmailId("som.neralagi@gmail.com");		
+		sgnInPg.EnterEmailId("som.neralagi@gmail.com");
+		System.out.println("Test2");
 		//Thread.sleep(3000);
 		sgnInPg.ClickNextButton();		
 		//Thread.sleep(2000);

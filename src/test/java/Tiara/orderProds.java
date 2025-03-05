@@ -37,6 +37,7 @@ public class orderProds extends BaseTest {
 			Thread.sleep(2000);
 			String filtcount=prdspg.HeaderItemCountDisplayExtract();
 			System.out.println(filtcount);
+			System.out.println("Test");
 			String count=filtcount.substring(2, 3);
 			int counter=Integer.parseInt(count);
 			
