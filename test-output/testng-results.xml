@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T21:21:17 IST" name="Suite" finished-at="2025-02-25T21:21:27 IST" duration-ms="10305">
+    <groups>
+    </groups>
+    <test started-at="2025-02-25T21:21:17 IST" name="Login Using Email" finished-at="2025-02-25T21:21:24 IST" duration-ms="6696">
+      <class name="Tiara.loginthruGmail">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tiara.loginthruGmail@7283d3eb]" started-at="2025-02-25T21:21:17 IST" name="launchApplication" finished-at="2025-02-25T21:21:22 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="gmailLogin()[pri:0, instance:Tiara.loginthruGmail@7283d3eb]" started-at="2025-02-25T21:21:22 IST" name="gmailLogin" finished-at="2025-02-25T21:21:24 IST" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tiara.loginthruGmail@7283d3eb]" started-at="2025-02-25T21:21:24 IST" name="tearDown" finished-at="2025-02-25T21:21:24 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tiara.loginthruGmail -->
+    </test> <!-- Login Using Email -->
+    <test started-at="2025-02-25T21:21:17 IST" name="E2E Test" finished-at="2025-02-25T21:21:26 IST" duration-ms="8691">
+      <class name="Tiara.TiaraE2ETest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:17 IST" name="launchApplication" finished-at="2025-02-25T21:21:22 IST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="customerRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:22 IST" name="customerRegistration" data-provider="getData" finished-at="2025-02-25T21:21:23 IST" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shrinidhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shivakumarn2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9741275767]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nidhi6@us1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:23 IST" name="tearDown" finished-at="2025-02-25T21:21:23 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:23 IST" name="launchApplication" finished-at="2025-02-25T21:21:25 IST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="emailErrorValidation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:25 IST" name="emailErrorValidation" data-provider="getData1" finished-at="2025-02-25T21:21:26 IST" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shrinidhi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9741275767]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nidhi6@us1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Nidhi6@us1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tiara.TiaraE2ETest@d2de489]" started-at="2025-02-25T21:21:26 IST" name="tearDown" finished-at="2025-02-25T21:21:26 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tiara.TiaraE2ETest -->
+    </test> <!-- E2E Test -->
+    <test started-at="2025-02-25T21:21:17 IST" name="Ordering Prods" finished-at="2025-02-25T21:21:27 IST" duration-ms="10305">
+      <class name="Tiara.orderProds">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Tiara.orderProds@47c81abf]" started-at="2025-02-25T21:21:17 IST" name="launchApplication" finished-at="2025-02-25T21:21:21 IST" duration-ms="4094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderProdstoCart(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tiara.orderProds@47c81abf]" started-at="2025-02-25T21:21:21 IST" name="orderProdstoCart" data-provider="testDataToOrderProds" finished-at="2025-02-25T21:21:27 IST" duration-ms="6074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[som.neralagi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nidhi6@us1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Glentree Academy]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[450]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderProdstoCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tiara.orderProds@47c81abf]" started-at="2025-02-25T21:21:27 IST" name="tearDown" finished-at="2025-02-25T21:21:27 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tiara.orderProds -->
+    </test> <!-- Ordering Prods -->
+  </suite> <!-- Suite -->
+</testng-results>
