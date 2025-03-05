@@ -31,6 +31,7 @@ public class TiaraE2ETest extends BaseTest {
     	SignUpPage supage=lp.signUp();
     	supage.registerCustomer(FName, Email, PhnNum, Passwrd,CnfrmPaswd);
     	String emailErrorText=driver.findElement(By.xpath("//label[normalize-space()='Invalid Email']")).getText();
+    	System.out.println(emailErrorText);
     	Assert.assertEquals(emailErrorText, "Invalid Email");
     }
 	
@@ -53,7 +54,7 @@ public class TiaraE2ETest extends BaseTest {
 	
 	@DataProvider
 	public Object[][] getData1() {
-		
+		//Testing of Git Learning
 		return new Object[][] {{"Shrinidhi","sh","9741275767","Nidhi6@us1234","Nidhi6@us1234"}};
 	}
 

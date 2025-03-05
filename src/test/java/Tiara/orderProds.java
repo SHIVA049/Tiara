@@ -24,6 +24,7 @@ public class orderProds extends BaseTest {
 	 @Test(dataProvider="testDataToOrderProds")
 	 public void orderProdstoCart(String emailid,String passwrd,String scoolName,String frmPrice,String toPrice) throws InterruptedException {
 		 
+		 //Testing of Git Learning
 		 LoginPage lginpg =lp.Login();
 		 SchoolSelectionPage ssp=lginpg.logintoProdSelectionPg(emailid, passwrd);
 		 ProductsPage prdspg=ssp.selectRequiredSchool(scoolName);
@@ -35,7 +36,7 @@ public class orderProds extends BaseTest {
 			
 			Thread.sleep(2000);
 			String filtcount=prdspg.HeaderItemCountDisplayExtract();
-			
+			System.out.println(filtcount);
 			String count=filtcount.substring(2, 3);
 			int counter=Integer.parseInt(count);
 			
