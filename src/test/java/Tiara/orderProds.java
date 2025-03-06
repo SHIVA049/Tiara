@@ -25,6 +25,7 @@ public class orderProds extends BaseTest {
 	 public void orderProdstoCart(String emailid,String passwrd,String scoolName,String frmPrice,String toPrice) throws InterruptedException {
 		 
 		 //Testing of Git Learning
+		 //Learning Git By Practice
 		 LoginPage lginpg =lp.Login();
 		 SchoolSelectionPage ssp=lginpg.logintoProdSelectionPg(emailid, passwrd);
 		 ProductsPage prdspg=ssp.selectRequiredSchool(scoolName);

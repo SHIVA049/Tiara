@@ -20,6 +20,7 @@ public class loginthruGmail extends BaseTest {
 	public void gmailLogin() throws InterruptedException {
 		
 		//Testing of Git
+		//Learning Git Concepts
 		LoginPage lginPg=lp.Login();
 		//Thread.sleep(2000);
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
