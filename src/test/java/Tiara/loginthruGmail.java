@@ -21,6 +21,7 @@ public class loginthruGmail extends BaseTest {
 		
 		//Testing of Git
 		//Learning Git Concepts
+		//Pushing the changes from Eclipse WorkSpace2
 		LoginPage lginPg=lp.Login();
 		//Thread.sleep(2000);
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(10));
