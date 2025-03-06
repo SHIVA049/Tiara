@@ -28,6 +28,7 @@ public class TiaraE2ETest extends BaseTest {
     @Test(dataProvider="getData1")
     public void emailErrorValidation(String FName,String Email,String PhnNum,String Passwrd,String CnfrmPaswd) throws IOException {
     	//LandingPage lp=launchApplication();
+    	//Chnages from develop branch
     	SignUpPage supage=lp.signUp();
     	supage.registerCustomer(FName, Email, PhnNum, Passwrd,CnfrmPaswd);
     	String emailErrorText=driver.findElement(By.xpath("//label[normalize-space()='Invalid Email']")).getText();
